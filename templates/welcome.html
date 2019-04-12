@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Welcome</title>
-        <style type="text/css">
-            .error {
-                color: red;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Welcome, {{name}}</h1>
-    </body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+
+<title>Welcome</title>
+<h1>Welcome, {{name}}</h1>
+
+{% endblock %}
